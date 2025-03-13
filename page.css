@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    min-height: 100vh;
+    background-image: url(julia.png);
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+.navbar a:hover{
+    color: #ff7200;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.main a{
+    margin-right: 25px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 500;
+    transition: all .50s ease;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.main a:hover{
+    color: #030201;
+}
+.main a select{
+    background: transparent;
+    color: #d1c0c0;
+    border: none;
+}
+.main button.user {
+    border: none;
+    border-radius: 15px;
+    background-color: #ff7200;
+    padding: 10px ;
+    height: 37px;
+    color: #fff;
+}
+section.hero{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 250px;
+}
+.hero{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.hero h2{
+    color: #fff;
+    font-size: 60px;
+    /* font-family: "Lobster", sans-serif; */
+    font-family: "Courgette", cursive;
+    /* font-family: "Dancing Script"; */
+    font-optical-sizing: auto;
+    font-weight: weight;
+    
+  
+  }
+    
+.hero h6{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ 
+}
+
+.hero-section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.overlay {
+    background: rgba(148, 145, 145, 0.4);
+    padding: 20px;
+}
+
+.search-bar {
+    background: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.tour-type {
+    height: 30px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.tour-type button {
+    /* justify-content: flex-start; */
+    float: left;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.tour-type .active {
+    background:white;
+    color: orange;
+    
+}
+.tour-type button:not(.active) {
+    background: rgb(177, 176, 176);
+    color: white;
+}
+
+
+.filters {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.filters select, .filters input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-btn {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+
+      
+

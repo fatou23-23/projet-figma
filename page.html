@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page d'accueil</title>
+    
+    <link rel="stylesheet" href="page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="logo.png" alt="logo"></a>
+
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Tour Packages</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="main">
+            <a href="#"> <select>
+                <option value="Eng">Eng</option>
+                <option value="Eng">Fr</option>
+            </select></a>
+            <a href="#">Login</a>
+            <a href="#"><button  class="user">Sign Up</button></a>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Enjoy in the best way!</h2>
+            <h6>Enjoy our services for your trip anytime</h6><br>
+            <section class="hero-section">
+                
+                <div class="overlay">
+                    <div class="tour-type">
+                        <button class="active"> <i class="fa-duotone fa-solid fa-earth-americas"></i>      Public Tours</button>
+                        <button><i class="fa-solid fa-users"></i>   Private Tours</button>
+                    </div>
+                    <div class="search-bar">
+                      
+                        <div class="filters">
+                            <select>
+                                <option selected>Number of people</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3+</option>
+                            </select>
+                            <input type="date">
+                            <input type="time">
+                            <select >
+                                <option selected>Select Tour</option>
+                                <option>City Tour</option>
+                                <option>Historical Tour</option>
+                            </select>
+            
+                            <select>
+                                <option selected>Select Transportation</option>
+                                <option>Car</option>
+                                <option>Bus</option>
+                                <option>Walking</option>
+                            </select>
+            
+                            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+       
+    </main>
+
+
+
+
+</body>
+</html>

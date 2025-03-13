@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "projet-figma",
+			"path": "."
+		},
+		{
+			"name": "bootstrap",
+			"path": "../../../Users/user/Desktop/mon-ccle/fatou kine/Dev_Web2/bootstrap"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "projet-figma"
+	}
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>barre de navigation responsive</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="bootstrap/css/bootstrap.min.css"
+    />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  </head>
+  <body>
+    <header class="bg-navbar">
+<div class="container">
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarText"
+      aria-controls="navbarText"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Tour Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Contact us</a>
+        </li>
+      </ul>
+      <div class="navbar-text">
+        <select name="" id="der">
+          <option value="en">Eng</option>
+          <option value="fr">Fr</option>
+        </select>
+        <button class="ane">Login</button>
+        <!-- Button trigger modal -->
+        <button
+          type="button" 
+          class="btn btn-warning text text-light"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"> Sign Up</button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="staticBackdrop"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true">
+         
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="card p-4 shadow-sm" style="width: 500px;">
+      
+      <form>
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="text-center">Create Account</h3>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+          <div class="mb-3">
+              <label class="form-label">Name and Surname</label>
+              <input type="text" class="form-control" placeholder="Enter your name and surname" required>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-control" placeholder="Enter your email address" required>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Password</label>
+              <input type="password" class="form-control" placeholder="Enter your password" required>
+          </div>
+          <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="terms">
+              <label class="form-check-label" for="terms">
+                  I agree with <a href="#" class="text text-warning">Terms</a> and <a href="#" class="text text-warning">Privacy</a>
+              </label>
+          </div>
+
+          <button type="submit" class="btn btn-warning w-100">Sign Up</button>
+      </form>
+      <div class="text-center my-3">or</div>
+      <button class="btn btn-light w-100 border">
+          <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000" width="20" class="me-2 ">  Sign Up with Google
+      </button>
+      <p class="text-center mt-3">Already have an account? <a href="#" class="text-decoration-none text-warning">Log In</a></p>
+  </div>
+</div>
+
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        </nav>
+      </div>
+
+      <!-- menu au milieu  -->
+      <div class="container mt-5 text-center text-white">
+        <h1>Enjoy in the best way !</h1>
+        <span>enjoy our servies for your trip anytime</span>
+      </div>
+      <div class="container mt-5 bg-box-milieu">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active text-warning" data-bs-toggle="tab" href="#home"> <img src="https://img.icons8.com/?size=100&id=113177&format=png&color=000000" alt="" width="20" class="me-2">Publics Tours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" data-bs-toggle="tab" href="#menu1"><img src="https://img.icons8.com/?size=100&id=cykh8BZMTKkb&format=png&color=000000" alt="" width="20" class="me-2 "> Private Tours</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane container active" id="home">
+            <div class="men">
+
+        <div class="search-bar d-flex align-items-center mt-2">
+            <div class="row w-100">
+                <!-- Nombre de personnes -->
+                <div class="col-md-2">
+                    <label class="form-label"><i class="bi bi-people"></i> Number of people</label>
+                    <select class="form-select">
+                        <option selected>Choose number</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3+</option>
+                    </select>
+                </div>
+                
+                <!-- Date -->
+                <div class="col-md-2">
+                    <label class="form-label"><i class="bi bi-calendar"></i> Date</label>
+                    <input type="date" class="form-control">
+                </div>
+
+                <!-- Heure -->
+                <div class="col-md-2">
+                    <label class="form-label"><i class="bi bi-clock"></i> Time</label>
+                    <input type="time" class="form-control">
+                </div>
+
+                <!-- Type de Tour -->
+                <div class="col-md-3">
+                    <label class="form-label"><i class="bi bi-flag"></i> Tour</label>
+                    <select class="form-select">
+                        <option selected>Select Tour</option>
+                        <option>City Tour</option>
+                        <option>Historical Tour</option>
+                    </select>
+                </div>
+
+                <!-- Transport -->
+                <div class="col-md-2">
+                    <label class="form-label"><i class="bi bi-bus"></i> Transportation</label>
+                    <select class="form-select">
+                        <option selected>Select Transportation</option>
+                        <option>Bus</option>
+                        <option>Private Car</option>
+                    </select>
+                </div>
+
+                <!-- Bouton Recherche -->
+                <div class="col-md-1 d-flex align-items-end">
+                  <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+       
+
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="menu1">...</div>
+        </div>
+      </div>
+    </header>
+    <div class="container dist">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="Rectangle 16.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lucca Bike Tour</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Rectangle 16 (1).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Wine tasting in Tuscany</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Rectangle 16 (2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Rectangle 16 (3).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row">
+      <div class="col-md-6">
+        <img src="Group 3.png" alt="" class="p-5">
+      </div>
+      <div class="col-md-6"><h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto sapiente laboriosam ipsam. Enim ipsum dolores ullam et in veritatis eveniet nisi, eaque pariatur minus maxime? Alias tempore amet quibusdam molestiae?</h2></div>
+    </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+ </body>
+</html>
