@@ -1,0 +1,43 @@
+
+  .offer {
+    background-image: url("Rectangle 51.png");
+    /* height: 62vh; */
+    /* margin: 10% 0 10%;  */
+    margin-top: 5%;
+    /* margin-bottom: 15%; */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+  
+  .box {
+    background: rgba(233, 227, 227, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  /* .defi{
+    background: #FA8B02;
+  } */
+  .back{
+    background-image: url("Rectangle 33.png");
+    /* margin-top: 15%; */
+    margin-bottom: 15%;
+    height: 100vh;
+  }
+  .loc{
+    position: relative;
+    top: 250px;
+    margin-left: 1000px;
+  }
+  /* .bg-navbar{
+    margin-bottom: 3px;
+  } */
+   #der{
+   border: none;
+    background-color:  rgba(255, 255, 255,0.2);
+    color: rgba(29, 29, 29, 0.2);
+  }
+  .ane{
+    border: none;
+    background-color: rgba(255, 255, 255,0.2);
+  }

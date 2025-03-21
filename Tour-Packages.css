@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.bg-navbar {
+  font-family: "Poppins";
+  background: white;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#der{
+   border: none;
+    background-color:  rgba(255, 255, 255,0.2);
+  }
+  .ane{
+    border: none;
+    background-color: rgba(255, 255, 255,0.2);
+  }
+  .dist{
+    margin-top: 6%;
+    margin-bottom: 3%;
+  }
+  .steve{
+    margin-left: 1230px;
+    position: relative;
+    top: -35px;
+   }
+   .pas-de-bordure{
+    border: none !important;
+  }
+  .person{
+    margin-top: 10%;
+    margin-bottom: 4%;
+    
+   }
+   .droite{
+    margin-left: 1275px;
+    position: relative;
+    top: -35px;
+   }
+   .offer {
+    background-image: url("Rectangle 51.png");
+    /* height: 62vh; */
+    margin: 10% 0 5%; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+  .diminu{
+    position: relative;
+    top: 35px;
+   }
+   .box {
+    background: rgba(233, 227, 227, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+    

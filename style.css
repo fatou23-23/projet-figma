@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size:cover;
   height: 100vh;
-
+ 
 }
 h1{
   font-family: "Courgette", cursive;
@@ -34,8 +34,112 @@ h1{
   margin-right: 100px;
   margin: -8px;
   background-color: white;
+  position: relative;
+  top: 8px;
 }
 .dist{
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 15%;
+  margin-bottom: 3%;
 }
+.distance{
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+.offer-section {
+    background-image: url("Rectangle 51.png");
+    /* height: 70vh; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10% 0 15%; 
+    position: relative;
+    top: -40px;
+    height: 405px;
+
+}
+.offer-box {
+    background: rgba(233, 227, 227, 0.7);
+    padding: 20px;
+    border-radius: 14px;
+    position: relative;
+    top: px;
+}
+.contact-btn {
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.contact-btn:hover {
+    background-color: darkorange;
+}
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
+
+.pas-de-bordure{
+  border: none !important;
+}
+
+.sortie{
+  position: relative;
+  top: -117px; 
+}
+.haut{
+  position: relative;
+  top: -25px;
+}
+.separe{
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+.offer {
+  background-image: url("Rectangle 51.png");
+  /* height: 62vh; */
+  margin: 10% 0 5%; 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.box {
+  background: rgba(233, 227, 227, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* .Book{
+  width: 630px;
+  height: 300px;
+  
+  
+  
+} */
+ .footer{
+  background-color: #333333;
+ }
+ .person{
+  margin-top: 10%;
+  margin-bottom: 4%;
+  
+ }
+ .droite{
+  margin-left: 1230px;
+  position: relative;
+  top: -35px;
+ }
+ .steve{
+  margin-left: 1230px;
+  position: relative;
+  top: -35px;
+ }
+ .diminu{
+  position: relative;
+  top: 35px;
+ }
+ 
