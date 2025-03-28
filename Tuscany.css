@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.bg-navbar {
+  font-family: "Poppins";
+  background: white;
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* margin-bottom: 10%; */
+}
+#der{
+   border: none;
+    background-color:  rgba(255, 255, 255,0.2);
+  }
+  .ane{
+    border: none;
+    background-color: rgba(255, 255, 255,0.2);
+  }
+  .chute{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 20px;
+  }
+  .bas{
+    margin-top: 10%;
+    
+  }
+.calendar {
+    max-width: 380px;
+    /* margin: 50px auto; */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  .calendar-header {
+    /* background-color: #007bff; */
+    /* color: white; */
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    /* border-radius: 10px 10px 0 0; */
+  }
+  .calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  .calendar-day {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .calendar-day:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 20%;
+  }
+  .calendar-day.empty {
+    background-color: transparent;
+  }
+  .boutton{
+    border-radius: 20%;
+    background-color: orange;
+
+  }
+  .ecrit{
+    height: 200px;
+  }
+  .guide{
+    /* width: 10px; */
+    height: 10px;
+  }
+  .sepa{
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+  /* .gap{
+    gap: 10px;
+  } */
+  .droite{
+    margin-left: 1225px;
+    position: relative;
+    top: -35px;
+   }
+   .person{
+    margin-top: 5%;
+    margin-bottom: 5%;
+   }
+   * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body {
+    display: flex;
+    background: #ef62da;
+    min-height: 100vh;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+} */
+
+.calendar-container {
+    background: #fff;
+    width: 430px;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.calendar-container header {
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+}
+
+header .calendar-navigation {
+    display: flex;
+}
+
+header .calendar-navigation span {
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    user-select: none;
+    color: #aeabab;
+    font-size: 1.9rem;
+}
+
+.calendar-navigation span:last-child {
+    margin-right: -10px;
+}
+
+header .calendar-navigation span:hover {
+    background: #f2f2f2;
+}
+
+header .calendar-current-date {
+    font-weight: 500;
+    font-size: 1.45rem;
+}
+
+.calendar-body {
+    padding: 20px;
+}
+
+.calendar-body ul {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+
+.calendar-body .calendar-dates {
+    margin-bottom: 20px;
+}
+
+.calendar-body li {
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+    color: #414141;
+}
+
+.calendar-body .calendar-weekdays li {
+    cursor: default;
+    font-weight: 500;
+}
+
+.calendar-body .calendar-dates li {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.calendar-dates li.inactive {
+    color: #aaa;
+}
+
+.calendar-dates li.active {
+    color: #fff;
+}
+
+.calendar-dates li::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calendar-dates li.active::before {
+    background: orange;
+}
+
+.calendar-dates li:not(.active):hover::before {
+    background: #e4e1e1;
+}

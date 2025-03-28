@@ -21,7 +21,7 @@
   .back{
     background-image: url("Rectangle 33.png");
     /* margin-top: 15%; */
-    margin-bottom: 15%;
+    /* margin-bottom: 15%; */
     height: 100vh;
   }
   .loc{
@@ -40,4 +40,10 @@
   .ane{
     border: none;
     background-color: rgba(255, 255, 255,0.2);
+  }
+  .pol{
+    height: 50px;
+    /* background: orange; */
+    background: rgb(187, 147, 88);
+
   }

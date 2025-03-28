@@ -1,0 +1,96 @@
+/* Conteneur de la barre de progression */
+.progress-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Ligne de progression */
+.progress-bar-line {
+    position: absolute;
+    top: 17px;
+    left: 15%;
+    width: 70%;
+    height: 4px;
+    background-color: orange;
+    z-index: -1;
+    transform: -50% -50%;
+    transform: scaleX(100.33%);
+    transform-origin: left;
+    transition: 0.3s;
+}
+
+.step {
+    text-align: center;
+    flex: 1;
+    position: relative;
+}
+#der{
+    border: none;
+     background-color:  rgba(255, 255, 255,0.2);
+   }
+   .ane{
+     border: none;
+     background-color: rgba(255, 255, 255,0.2);
+   }
+
+.circle {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: #888;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.step.active .circle {
+    background-color: orange;
+    color: white;
+}
+
+.step.active p {
+    font-weight: bold;
+    color: orange;
+}
+.deux .circle{
+    background-color: orange;
+    color: white;
+}
+.deux p {
+    font-weight: bold;
+    color: orange;
+}
+.signe{
+    margin-left: 430px;
+   position: relative;
+   top: 15px;
+   height: 30px;
+}
+
+.cercle{
+    border-radius: 30px;
+    width: 40px;
+    height: 20px;
+    background: #e6e4e4;
+}
+.larg{
+    height: 550px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.back{
+    background-color: #fff4e8;
+    height: 250px;
+    border-radius: 20px;
+   
+}
+.bit{
+     position: relative;
+    top: 30px; 
+    margin: 12px;
+  
+}

@@ -1,0 +1,20 @@
+#der{
+    border: none;
+     background-color:  rgba(255, 255, 255,0.2);
+   }
+.logo{
+    height: 100px;
+}
+
+.ane{
+    border: none;
+    background-color: rgba(255, 255, 255,0.2);
+}
+.separation{
+    margin-top: 10%;
+    margin-bottom: 7%;
+}
+.chute{
+    position: relative;
+    top: 80px;
+}

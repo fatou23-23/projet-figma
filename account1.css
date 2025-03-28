@@ -1,0 +1,46 @@
+.get{
+    width: 150px;
+    height: 90px;
+    margin-left: 1290px;
+    position: relative;
+    top: -17px;
+    /* margin: 10px; */
+  }
+  #der{
+    border: none;
+     background-color:  rgba(255, 255, 255,0.2);
+   }
+.logo{
+    height: 100px;
+}
+/* .marg{
+    margin-left: 320px;
+}
+.marge{
+    margin-left: 390px;
+} */
+.chute{
+    position: relative;
+    top: 40px;
+}
+/* .align {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 350px;
+
+} */
+.cont{
+    height: 30px;
+}
+.steve{
+    margin-left: 1230px;
+    position: relative;
+    top: -35px;
+}
+.dist{
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+.pas-de-bordure{
+    border: none !important;
+  }

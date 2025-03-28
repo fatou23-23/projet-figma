@@ -1,0 +1,95 @@
+/* Conteneur de la barre de progression */
+.progress-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Ligne de progression */
+.progress-bar-line {
+    position: absolute;
+    top: 17px;
+    left: 15%;
+    width: 70%;
+    height: 4px;
+    background-color: orange;
+    z-index: -1;
+    transform: -50% -50%;
+    transform: scaleX(50.33%);
+    transform-origin: left;
+    transition: 0.3s;
+}
+#der{
+    border: none;
+     background-color:  rgba(255, 255, 255,0.2);
+   }
+   .ane{
+     border: none;
+     background-color: rgba(255, 255, 255,0.2);
+   }
+/* .ligne{
+    position: absolute;
+   height: 4px;
+   width: 100%;
+   background-color: #888;
+   top: ;
+   translate: 0 -50%;
+} */
+
+/* Étape */
+.step {
+    text-align: center;
+    flex: 1;
+    position: relative;
+}
+
+/* Cercle de l'étape */
+.circle {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: #888;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Styles pour l'étape active */
+.step.active .circle {
+    background-color: orange;
+    color: white;
+}
+
+.step.active p {
+    font-weight: bold;
+    color: orange;
+}
+.deux .circle{
+    background-color: orange;
+    color: white;
+}
+.deux p {
+    font-weight: bold;
+    color: orange;
+}
+.signe{
+    margin-left: 430px;
+   position: relative;
+   top: 15px;
+   height: 30px;
+}
+
+.cercle{
+    border-radius: 30px;
+    width: 40px;
+    height: 20px;
+    background: #e6e4e4;
+}
+.larg{
+    height: 550px;
+    padding: 10px;
+    border-radius: 15px;
+}
+

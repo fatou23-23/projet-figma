@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date</title>
+    <link rel="stylesheet" href="Date.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet"href="bootstrap/css/bootstrap.min.css"/>
+    </head>
+    <body>
+    <header class="bg-navbar " >
+<div class="container">
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarText"
+      aria-controls="navbarText"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="About-us.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="Tour-Packages.html">Tour Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="Contact-us.html">Contact us</a>
+        </li>
+      </ul>
+      <div class="navbar-text">
+        <select name="" id="der">
+          <option value="en">Eng</option>
+          <option value="fr">Fr</option>
+        </select>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title " id="exampleModalToggleLabel">Login</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                   <form class="border">
+                    <div class="mb-3">
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-control" placeholder="Enter your email address" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" placeholder="Enter your password" required>
+                    </div>
+                    <div class="form-check mb-3">
+                          <p class="text-end">Forget your password?</p>  
+                    </div>
+                    <div class="form-check mb-3">
+                        <button type="submit" class="btn btn-warning w-100 ">Sign Up</button>
+                </div>
+                <div class="form-check mb-3">
+                    <button class="btn btn-light w-100 border">
+                        <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000" width="20" class="me-2 ">  Sign Up with Google
+                    </button>
+            </div>
+        </form>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+          <a class="btn border rounded-pill text-light" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Login</a>
+        <!-- <button class="ane">Login</button> -->
+      <!-- Button trigger modal -->
+      <button
+      type="button" 
+      class="btn btn-warning text text-light rounded"
+      data-bs-toggle="modal"
+      data-bs-target="#staticBackdrop"> Sign Up</button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true">
+     
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+<div class="card p-4 shadow-sm" style="width: 500px;">
+  
+  <form>
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="text-center">Create Account</h3>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+      <div class="mb-3">
+          <label class="form-label">Name and Surname</label>
+          <input type="text" class="form-control" placeholder="Enter your name and surname" required>
+      </div>
+      <div class="mb-3">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-control" placeholder="Enter your email address" required>
+      </div>
+      <div class="mb-3">
+          <label class="form-label">Password</label>
+          <input type="password" class="form-control" placeholder="Enter your password" required>
+      </div>
+      <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="terms">
+          <label class="form-check-label" for="terms">
+              I agree with <a href="#" class="text text-warning">Terms</a> and <a href="#" class="text text-warning">Privacy</a>
+          </label>
+      </div>
+
+      <button type="submit" class="btn btn-warning w-100">Sign Up</button>
+  </form>
+  <div class="text-center my-3">or</div>
+  <button class="btn btn-light w-100 border">
+      <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000" width="20" class="me-2 ">  Sign Up with Google
+  </button>
+  <p class="text-center mt-3">Already have an account? <a href="#" class="text-decoration-none text-warning">Log In</a></p>
+</div>
+</div>
+
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        </nav>
+      </div>
+
+      <!-- menu au milieu  -->
+      <div class="container mt-5 text-center text-white">
+        <h1>Enjoy in the best way !</h1>
+        <span>enjoy our servies for your trip anytime</span>
+      </div>
+      <div class="container mt-5 bg-box-milieu ">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active text-warning " data-bs-toggle="tab" href="#home"> <i class="fa-solid fa-earth-americas"></i>Publics Tours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" data-bs-toggle="tab" href="#menu1"><i class="fa-solid fa-users"></i>Private Tours</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content ">
+          <div class="tab-pane container active" id="home">
+            <div class="men">
+
+        <div class="search-bar d-flex align-items-center ">
+            <div class="row w-100">
+               
+                <!-- Date -->
+                <div class="col-md-2">
+                    <label class="form-label"><img src="system-uicons_calendar-month.png" alt=""> Date</label>
+                    <input type="date" class="form-control">
+                </div>
+
+                <!-- Heure -->
+                <div class="col-md-2">
+                    <label class="form-label"><img src="system-uicons_clock.png" alt=""> Time</label>
+                    <input type="time" class="form-control">
+                </div>
+
+                <div class="col-md-3">
+                    <label class="form-label"><img src="icon _tour.png" alt=""> Tour</label>
+                    <select class="form-select">
+                        <option selected>Lucca Bike tour</option>
+                        <option>Book a bike</option>
+                        <option>Tour In the outside of lucca</option>
+                        <option>Wine Tasting in Tuscany</option>
+                        <option>Clique Terre Tour</option>
+                        <option>Siena and Surroundings</option>
+                        <option>Pisa & lucca</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label"><img src="icon_car.png" alt=""> Transportation</label>
+                    <select class="form-select">
+                        <option selected>Minivan and Bus</option>
+                        <option>Transfers & Bus</option>
+                        <option>Luxury Experience</option>
+                    </select>
+                </div>
+                <!-- Bouton Recherche -->
+                <div class="col-md-1 d-flex align-items-end">
+                  <a href="search.html"><button class="search-btn contact-btn"><i class="fa-solid fa-magnifying-glass text-light"></i></button></a>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="menu1">...</div>
+        </div>
+      </div>
+    </header>
+    <body>
+        
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+    </body>
+   </html>
